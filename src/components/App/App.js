@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import SongController from '../SongController/SongController';
 import { getSongs } from '../APICalls/APICalls'
+import DisplayAllSongs from '../DisplayAllSongs/DisplayAllSongs'
 
 class App extends Component {
   constructor() {
@@ -26,6 +27,9 @@ class App extends Component {
         </header>
         <div className="App-background">
           <main>
+            <section>
+              <DisplayAllSongs songQueue={this.state.songQueue}/>
+            </section>
           </main>
         </div>
       </div>

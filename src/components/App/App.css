@@ -31,6 +31,7 @@
   background-image: url('../../assets/music-listening-bar.jpg');
   background-size:cover;
   height: 100%;
+  position: relative
 }
 
 main {

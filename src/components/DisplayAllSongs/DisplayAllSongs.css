@@ -1,0 +1,6 @@
+.all-songs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: absolute;
+}
