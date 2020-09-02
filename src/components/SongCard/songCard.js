@@ -1,4 +1,5 @@
 import React from 'react'
+import App from '../App/App'
 
 function songCard(props) {
   return (
@@ -10,3 +11,4 @@ function songCard(props) {
   )
 }
 //
+export default songCard
